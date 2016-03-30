@@ -162,7 +162,6 @@
     <value>special://skin/backgrounds/default</value>
   </variable>
   <variable name="Pictures.Art" description="Calculate BG to show">
-    <value condition="!container.content(addons) + !IsEmpty(ListItem.thumb)">$INFO[ListItem.Art(poster)]</value>
     <value condition="!IsEmpty(Skin.String(Default.Background))">$INFO[Skin.String(Default.Background)]</value>
     <value>special://skin/backgrounds/default/</value>
   </variable>
