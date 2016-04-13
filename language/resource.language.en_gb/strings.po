@@ -266,11 +266,7 @@ msgctxt "#31362"
 msgid "Enabled"
 msgstr ""
 
-msgctxt "#31363"
-msgid "Static Horizontal/Vertical Menu"
-msgstr ""
-
-#empty strings from id 31364 to 31388
+#empty strings from id 31363 to 31388
 #Skin Fontsets
 
 msgctxt "#31389"
