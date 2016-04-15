@@ -1760,7 +1760,7 @@
         <texture>$INFO[ListItem.VideoCodec,badges/video/,.png]</texture>
       </control>
       <control type="image">
-        <visible>!IsEmpty(ListItem.VideoResolution) + IntegerGreaterThan(ListItem.VideoResolution,710)</visible>
+        <visible>!IsEmpty(ListItem.VideoResolution)</visible>
         <height>45</height>
         <width>90</width>
         <posx>0</posx>
