@@ -1728,6 +1728,18 @@
               <label2>$LOCALIZE[106]</label2>
               <onclick>Skin.ToggleSetting(Show_Library_Count)</onclick>
 			      </item>
+            <item id="3" description="Static Vertical Home">
+              <visible>Skin.HasSetting(StaticVerticalHome)</visible>
+              <label>$LOCALIZE[31363]</label>
+              <label2>$LOCALIZE[107]</label2>
+              <onclick>Skin.ToggleSetting(StaticVerticalHome)</onclick>
+            </item>
+            <item id="3" description="Static Vertical Home">
+              <visible>!Skin.HasSetting(StaticVerticalHome)</visible>
+              <label>$LOCALIZE[31363]</label>
+              <label2>$LOCALIZE[106]</label2>
+              <onclick>Skin.ToggleSetting(StaticVerticalHome)</onclick>
+            </item>
           </content>
         </control>
         <!-- 9000 7 -->
