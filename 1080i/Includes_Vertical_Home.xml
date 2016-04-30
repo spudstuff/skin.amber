@@ -589,6 +589,9 @@
       </control>
     </focusedlayout>
   </include>
+  <include name="StaticSettings">
+    <movement>6</movement>
+  </include>
   <include name="Vertical_Home_Layout">
     <control type="group" id="700">
       <include condition="Skin.HasSetting(Shelf.Delay)">Shelf_Delay</include>
@@ -680,54 +683,6 @@
           <font>Volume</font>
         </control>
       </control>
-      <control type="fixedlist" id="300" description="Main Bar">
-        <visible>!Skin.HasSetting(StaticVerticalHome)</visible>
-        <animation effect="fade" time="200" start="100" end="20" reversible="true" condition="!Control.HasFocus(300)">Conditional</animation>
-        <posx>30</posx>
-        <posy>100</posy>
-        <width>460</width>
-        <height>880</height>
-        <onup>300</onup>
-        <ondown>300</ondown>
-        <onleft>9001</onleft>
-        <onright>700</onright>
-        <onback>9001</onback>
-        <pagecontrol>-</pagecontrol>
-        <focusposition>5</focusposition>
-        <movement>0</movement>
-        <itemlayout height="80" width="460">
-          <control type="label">
-            <posx>0</posx>
-            <posy>0</posy>
-            <width>460</width>
-            <height>80</height>
-            <align>right</align>
-            <aligny>center</aligny>
-            <textcolor>Grey3</textcolor>
-            <shadowcolor>ShadowDark</shadowcolor>
-            <label>$INFO[ListItem.Label]</label>
-            <scroll>false</scroll>
-            <font>MainMenuVertical</font>
-          </control>
-        </itemlayout>
-        <focusedlayout height="80" width="460">
-          <control type="label">
-            <posx>0</posx>
-            <posy>0</posy>
-            <width>460</width>
-            <height>80</height>
-            <align>right</align>
-            <aligny>center</aligny>
-            <textcolor>Highlight</textcolor>
-            <shadowcolor>ShadowDark</shadowcolor>
-            <label>$INFO[ListItem.Label]</label>
-            <font>MainMenuVerticalFO</font>
-          </control>
-        </focusedlayout>
-        <content>
-          <include>Home.Main.Menu.Items</include>
-        </content>
-      </control>      
       <control type="list" id="300" description="Main Bar">
         <visible>Skin.HasSetting(StaticVerticalHome)</visible>
         <animation effect="fade" time="200" start="100" end="20" reversible="true" condition="!Control.HasFocus(300)">Conditional</animation>
@@ -740,8 +695,10 @@
         <onleft>9001</onleft>
         <onright>700</onright>
         <onback>9001</onback>
+        <focusposition>5</focusposition>
         <pagecontrol>-</pagecontrol>
-        <align>center</align>
+        <include condition="Skin.HasSetting(StaticVerticalHome)">StaticSettings</include>
+        <movement>0</movement>
         <itemlayout height="80" width="460">
           <control type="label">
             <posx>0</posx>
