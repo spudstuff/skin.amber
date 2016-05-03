@@ -590,7 +590,7 @@
     </focusedlayout>
   </include>
   <include name="StaticSettings">
-    <movement>6</movement>
+    <movement>5</movement>
   </include>
   <include name="Vertical_Home_Layout">
     <control type="group" id="700">
