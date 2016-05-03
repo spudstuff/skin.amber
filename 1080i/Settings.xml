@@ -308,6 +308,13 @@
             <onclick>RunScript(service.openelec.settings)</onclick>
             <visible>System.HasAddon(service.openelec.settings)</visible>
           </control>
+          <control type="button" id="508" description="Launch LibreELEC settings">
+            <font>ListDetails</font>
+            <width>322</width>
+            <label>$LOCALIZE[31296]</label>
+            <onclick>RunScript(service.libreelec.settings)</onclick>
+            <visible>System.HasAddon(service.libreelec.settings)</visible>
+          </control>
         </control>
         <!--9000 2-->
         <control type="panel" id="9002">
