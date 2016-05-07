@@ -1,3 +1,9 @@
+2.2.6
+missing menu entry fixes, PVR fixes, OSD Badge fixes, OSD Fixes, LibreELEC settings shortcut
+
+2.2.5
+Bugfixes and cleanups, fixed PVR groupmanager, add OSMC and OpenElec settings links, add auto-update toggle
+
 2.2.4
 OSD Update, bugfixes and cleanups, translation update and auto pull by Transifex, aspect ratio fix of Favourites
 
