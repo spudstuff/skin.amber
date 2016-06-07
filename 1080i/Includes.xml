@@ -984,6 +984,11 @@
       <label>$LOCALIZE[31020]</label>
       <onclick>ActivateWindow(Videos,RecentlyAddedMovies,return)</onclick>
     </item>
+    <item id="34" description="Movies InProgress">
+      <visible>Container(300).HasFocus(4) + Library.HasContent(Movies)</visible>
+      <label>$LOCALIZE[575]</label>
+      <onclick>ActivateWindow(Videos,special://skin/xsp/movies_inprogress.xsp,return)</onclick>
+    </item>
     <item id="14" description="RA Movies">
       <visible>Container(300).HasFocus(4) + !Skin.HasSetting(Movies2)</visible>
       <label>$LOCALIZE[20459]</label>
@@ -1727,7 +1732,7 @@
   <include name="MediaFlags">
     <control type="grouplist" description="Flags">
       <visible>!ListItem.IsFolder</visible>
-      <width min="90" max="650">auto</width>
+      <width>650</width>
       <height>120</height>
       <itemgap>30</itemgap>
       <orientation>horizontal</orientation>
