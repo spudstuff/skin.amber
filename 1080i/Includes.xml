@@ -308,7 +308,7 @@
 		<colordiffuse>Highlight</colordiffuse>
   </include>
   <include name="SquareThumb">
-    <texture background="true">$INFO[ListItem.Art(thumb)]</texture>
+    <texture background="true">$VAR[Thumbs]</texture>
     <aspectratio aligny="top">stretch</aspectratio>
   </include>
   <include name="SquareThumbBG">
@@ -321,7 +321,7 @@
 		<colordiffuse>Highlight</colordiffuse>
   </include>
   <include name="PosterThumb">
-    <texture background="true">$INFO[ListItem.Art(thumb)]</texture>
+    <texture background="true">$VAR[Posters]</texture>
     <aspectratio aligny="top">stretch</aspectratio>
   </include>
   <include name="PosterThumbBG">
