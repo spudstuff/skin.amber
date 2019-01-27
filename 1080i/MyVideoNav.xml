@@ -3,6 +3,7 @@
   <defaultcontrol>50</defaultcontrol>
   <onload>ClearProperty(gallery)</onload>
   <onunload>ClearProperty(gallery)</onunload>
+  <views>50,51,52,53,54,55,56</views>
   <menucontrol>9000</menucontrol>
   <controls>
     <include>DefaultBackground</include>

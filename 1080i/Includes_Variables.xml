@@ -336,26 +336,26 @@
   </variable>
 
   <variable name="Studios">
-    <value condition="!IsEmpty(Skin.String(studiosResource.path)) + SubString(Skin.String(studiosResource.path),coloured)">resource://resource.images.studios.coloured/$INFO[Listitem.Label,,.png]</value>
-    <value condition="!IsEmpty(Skin.String(studiosResource.path)) + SubString(Skin.String(studiosResource.path),white)">resource://resource.images.studios.white/$INFO[Listitem.Label,,.png]</value>
+    <value condition="!String.IsEmpty(Skin.String(studiosResource.path)) + SubString(Skin.String(studiosResource.path),coloured)">resource://resource.images.studios.coloured/$INFO[Listitem.Label,,.png]</value>
+    <value condition="!String.IsEmpty(Skin.String(studiosResource.path)) + SubString(Skin.String(studiosResource.path),white)">resource://resource.images.studios.white/$INFO[Listitem.Label,,.png]</value>
   </variable>
 
   <variable name="MovieGenres">
-    <value condition="!IsEmpty(Skin.String(moviegenreiconsResource.path)) + SubString(Skin.String(moviegenreiconsResource.path),arctic.zephyr)">resource://resource.images.moviegenreicons.arctic.zephyr/$INFO[Listitem.Label,,.png]</value>
-    <value condition="!IsEmpty(Skin.String(moviegenreiconsResource.path)) + SubString(Skin.String(moviegenreiconsResource.path),coloured)">resource://resource.images.moviegenreicons.coloured/$INFO[Listitem.Label,,.jpg]</value>
-    <value condition="!IsEmpty(Skin.String(moviegenreiconsResource.path)) + SubString(Skin.String(moviegenreiconsResource.path),filmstrip)">resource://resource.images.moviegenreicons.filmstrip/$INFO[Listitem.Label,,.jpg]</value>
-    <value condition="!IsEmpty(Skin.String(moviegenreiconsResource.path)) + SubString(Skin.String(moviegenreiconsResource.path),grey)">resource://resource.images.moviegenreicons.grey/$INFO[Listitem.Label,,.jpg]</value>
-    <value condition="!IsEmpty(Skin.String(moviegenreiconsResource.path)) + SubString(Skin.String(moviegenreiconsResource.path),poster)">resource://resource.images.moviegenreicons.poster/$INFO[Listitem.Label,,.jpg]</value>
-    <value condition="!IsEmpty(Skin.String(moviegenreiconsResource.path)) + SubString(Skin.String(moviegenreiconsResource.path),transparent)">resource://resource.images.moviegenreicons.transparent/$INFO[Listitem.Label,,.png]</value>
-    <value condition="!IsEmpty(Skin.String(moviegenreiconsResource.path)) + SubString(Skin.String(moviegenreiconsResource.path),white)">resource://resource.images.moviegenreicons.white/$INFO[Listitem.Label,,.jpg]</value>
-    <value condition="!IsEmpty(Skin.String(moviegenreiconsResource.path)) + SubString(Skin.String(moviegenreiconsResource.path),xzener-flat)">resource://resource.images.moviegenreicons.xzener-flat/$INFO[Listitem.Label,,.png]</value>
-    <value condition="!IsEmpty(Skin.String(moviegenreiconsResource.path)) + SubString(Skin.String(moviegenreiconsResource.path),xzener-reflection)">resource://resource.images.moviegenreicons.xzener-reflection/$INFO[Listitem.Label,,.png]</value>
+    <value condition="!String.IsEmpty(Skin.String(moviegenreiconsResource.path)) + SubString(Skin.String(moviegenreiconsResource.path),arctic.zephyr)">resource://resource.images.moviegenreicons.arctic.zephyr/$INFO[Listitem.Label,,.png]</value>
+    <value condition="!String.IsEmpty(Skin.String(moviegenreiconsResource.path)) + SubString(Skin.String(moviegenreiconsResource.path),coloured)">resource://resource.images.moviegenreicons.coloured/$INFO[Listitem.Label,,.jpg]</value>
+    <value condition="!String.IsEmpty(Skin.String(moviegenreiconsResource.path)) + SubString(Skin.String(moviegenreiconsResource.path),filmstrip)">resource://resource.images.moviegenreicons.filmstrip/$INFO[Listitem.Label,,.jpg]</value>
+    <value condition="!String.IsEmpty(Skin.String(moviegenreiconsResource.path)) + SubString(Skin.String(moviegenreiconsResource.path),grey)">resource://resource.images.moviegenreicons.grey/$INFO[Listitem.Label,,.jpg]</value>
+    <value condition="!String.IsEmpty(Skin.String(moviegenreiconsResource.path)) + SubString(Skin.String(moviegenreiconsResource.path),poster)">resource://resource.images.moviegenreicons.poster/$INFO[Listitem.Label,,.jpg]</value>
+    <value condition="!String.IsEmpty(Skin.String(moviegenreiconsResource.path)) + SubString(Skin.String(moviegenreiconsResource.path),transparent)">resource://resource.images.moviegenreicons.transparent/$INFO[Listitem.Label,,.png]</value>
+    <value condition="!String.IsEmpty(Skin.String(moviegenreiconsResource.path)) + SubString(Skin.String(moviegenreiconsResource.path),white)">resource://resource.images.moviegenreicons.white/$INFO[Listitem.Label,,.jpg]</value>
+    <value condition="!String.IsEmpty(Skin.String(moviegenreiconsResource.path)) + SubString(Skin.String(moviegenreiconsResource.path),xzener-flat)">resource://resource.images.moviegenreicons.xzener-flat/$INFO[Listitem.Label,,.png]</value>
+    <value condition="!String.IsEmpty(Skin.String(moviegenreiconsResource.path)) + SubString(Skin.String(moviegenreiconsResource.path),xzener-reflection)">resource://resource.images.moviegenreicons.xzener-reflection/$INFO[Listitem.Label,,.png]</value>
   </variable>
 
   <variable name="MusicGenres">
-    <value condition="!IsEmpty(Skin.String(musicgenreiconsResource.path)) + SubString(Skin.String(musicgenreiconsResource.path),grey)">resource://resource.images.musicgenreicons.grey/$INFO[Listitem.Label,,.jpg]</value>
-    <value condition="!IsEmpty(Skin.String(musicgenreiconsResource.path)) + SubString(Skin.String(musicgenreiconsResource.path),poster)">resource://resource.images.musicgenreicons.poster/$INFO[Listitem.Label,,.jpg]</value>
-    <value condition="!IsEmpty(Skin.String(musicgenreiconsResource.path)) + SubString(Skin.String(musicgenreiconsResource.path),text)">resource://resource.images.musicgenreicons.text/$INFO[Listitem.Label,,.jpg]</value>
+    <value condition="!String.IsEmpty(Skin.String(musicgenreiconsResource.path)) + SubString(Skin.String(musicgenreiconsResource.path),grey)">resource://resource.images.musicgenreicons.grey/$INFO[Listitem.Label,,.jpg]</value>
+    <value condition="!String.IsEmpty(Skin.String(musicgenreiconsResource.path)) + SubString(Skin.String(musicgenreiconsResource.path),poster)">resource://resource.images.musicgenreicons.poster/$INFO[Listitem.Label,,.jpg]</value>
+    <value condition="!String.IsEmpty(Skin.String(musicgenreiconsResource.path)) + SubString(Skin.String(musicgenreiconsResource.path),text)">resource://resource.images.musicgenreicons.text/$INFO[Listitem.Label,,.jpg]</value>
   </variable>
 
   <variable name="ThumbType">
