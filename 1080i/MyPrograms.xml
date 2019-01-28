@@ -9,7 +9,6 @@
     <include>View_51_Panel</include>
     <include>View_52_BigList</include>
     <include>View_53_Icons</include>
-    <include>View_54_LowList</include>
     <include>View_55_BigPanel</include>
     <include>View_56_Fanart</include>
     <control type="group">
