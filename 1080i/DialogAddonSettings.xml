@@ -59,8 +59,8 @@
       <control type="label" id="14" description="Sparator label headline">
         <textoffsetx>30</textoffsetx>
       </control>
- 	  <control type="edit" id="12">
-  	  </control>
+      <control type="edit" id="12">
+      </control>
       <control type="sliderex" id="13">
         <align>left</align>
         <textoffsetx>30</textoffsetx>
